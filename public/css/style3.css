@@ -1,69 +1,74 @@
-*{
-    font-family: 'Roboto', sans-serif;
-    margin:0; padding:0;
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    outline: none; border:none;
+    outline: none;
+    border: none;
     text-decoration: none;
     text-transform: capitalize;
-    transition: .2s linear;
-    
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
 }
 
-.wrapper{
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
-	min-height: 100%;
-	padding: 20px;	
-	position: static;
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+    position: static;
 }
 
-.formContent{
-	-webkit-border-radius: 10px 10px 10px 10px;
-	border-radius: 10px 10px 10px 10px;
-	font-family: 'Times New Roman', Times, serif;
-	background: #A6A6A6;
-	padding: 30px;
-	width: 90%;
-	max-width: 390px;
-	max-height: 350px;
-	position: relative;
-	padding: 2px;
-	-webkit-box-shadow: 0 30px 60px 0  #d3ad7f(0,0,0,0.3);
-	box-shadow: 0 40px 70px 0 rgba(0, 0, 0, 0.3);
-	text-align: center;
+.formContent {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    font-family: "Times New Roman", Times, serif;
+    background: #a6a6a6;
+    padding: 30px;
+    width: 90%;
+    max-width: 390px;
+    max-height: 350px;
+    position: relative;
+    padding: 2px;
+    -webkit-box-shadow: 0 30px 60px 0 #d3ad7f(0, 0, 0, 0.3);
+    box-shadow: 0 40px 70px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
 }
 
-.formElement{
-	padding-top:10px;
-	padding-bottom:10px;
+.formElement {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.divider{
-	height: 1px;
-	width: 100%;
-	display: block;
-	margin: 10px 0;
-	overflow: hidden;
-	background-color: #fff;
+.divider {
+    height: 1px;
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+    overflow: hidden;
+    background-color: #fff;
 }
 
-.formGroupItem{
-	font-weight: bold;
-	font-size: small;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
+.formGroupItem {
+    font-weight: bold;
+    font-size: small;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
-.formSubmit{
-	font-size: medium;
-	font-weight: bold;
-	margin-bottom: 30px;
-	margin-top: 20px;
-	width:50%;
-	height: 25px;
+.formSubmit {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 50%;
+    height: 25px;
 }
